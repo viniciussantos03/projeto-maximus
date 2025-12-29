@@ -42,8 +42,8 @@ header h1 {
 nav {
     background-color: var(--cor-02);
     padding: 50px;
-    margin: -20px;
     border-radius: 0 0 0 100px;
+    margin: -20px -20px 0 0;
 }
 
 nav a {
@@ -51,7 +51,7 @@ nav a {
     color: black;
     font-size: 1.2em;
     text-align: center;
-    margin: 10px;
+    margin: 8px;
 }
 
 nav a:hover {
