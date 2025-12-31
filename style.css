@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 :root {
     --cor-01: #007cbe;
     --cor-02: #4D59FA;
@@ -37,6 +41,7 @@ header h1 {
     font-weight: normal;
     font-size: 3em;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -59,4 +64,38 @@ nav a:hover {
     background-color: white;
     padding: 2px 5px;
     border-radius: 3px;
+}
+
+main {
+    padding-left: 30px;
+    padding-bottom: 50vh;
+}
+
+main h1 {
+    padding-top: 50px;
+    font-size: 2.5em;
+}
+
+main p {
+    padding-top: 30px;
+    text-indent: 40px;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: left;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
