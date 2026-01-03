@@ -2,8 +2,10 @@
 
 @font-face {
     font-family: "Press Start 2P";
-    src: url('Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
-}
+    src: url('../Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
     margin: 0;
@@ -20,12 +22,14 @@ html, body {
     --cor-03: #07004d;
     --cor-especial: #56e39f;
     
-    --fonte-principal: "Press Start 2P", system-ui;
-    --fonte-secundaria: Arial, Helvetica, sans-serif;
+    --fonte-1: Arial, Helvetica, sans-serif;
+    --fonte-2: "Press Start 2P", system-ui;
+    --fonte-3: "Bangers", system-ui;
+
 }
 
 body {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-1);
 }
 
 .navbr {
@@ -37,7 +41,7 @@ body {
 
 header h1 {
     color: var(--cor-01);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-2);
     font-weight: normal;
     font-size: 3em;
     padding: 10px;
@@ -49,12 +53,13 @@ nav {
     padding: 50px;
     border-radius: 0 0 0 100px;
     margin: -20px -20px 0 0;
+    width: 70vw;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 2.5vw;
     text-align: center;
     margin: 8px;
 }
@@ -74,6 +79,7 @@ main {
 main h1 {
     padding-top: 50px;
     font-size: 2.5em;
+    font-family: var(--fonte-3);
 }
 
 main p {
@@ -88,6 +94,7 @@ footer {
     color: white;
     padding: 30px;
     text-align: left;
+    text-align: center;
 }
 
 footer a {
