@@ -34,8 +34,8 @@ body {
 
 .navbr {
   display: flex;
-  align-items: center;   
-  justify-content: space-between; 
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
 }
 
@@ -59,9 +59,9 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 2.5vw;
-    text-align: center;
+    font-size: 1.5em;
     margin: 8px;
+    margin-left: 30px;
 }
 
 nav a:hover {
@@ -80,6 +80,12 @@ main h1 {
     padding-top: 50px;
     font-size: 2.5em;
     font-family: var(--fonte-3);
+}
+
+main h2 {
+    font-family: var(--fonte-3);
+    font-size: 2.3em;
+    padding-top: 50px;
 }
 
 main p {
