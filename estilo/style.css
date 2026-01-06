@@ -95,6 +95,28 @@ main p {
     font-size: 1.5em;
 }
 
+#Downloads h2 {
+    color: var(--cor-03);
+    text-align: center;
+
+}
+
+#Downloads a {
+    text-decoration: none;
+    color: var(--cor-02);
+}
+
+#Downloads a:hover {
+    text-decoration: underline;
+    background-color: var(--cor-especial);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#Downloads p {
+    text-align: center;
+}
+
 footer {
     background-color: black;
     color: white;
