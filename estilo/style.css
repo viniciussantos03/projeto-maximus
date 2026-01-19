@@ -32,11 +32,8 @@ body {
     font-family: var(--fonte-1);
 }
 
-.navbr {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+header {
+    position: relative;
 }
 
 header h1 {
@@ -49,11 +46,15 @@ header h1 {
 }
 
 nav {
+    position: absolute;
+    left: 100%;
+    top: 5%;
     background-color: var(--cor-02);
-    padding: 50px;
+    padding: 40px;
     border-radius: 0 0 0 100px;
     margin: -20px -20px 0 0;
-    width: 70vw;
+    width: 50vw;
+    transform: translate(-100%, -5%);
 }
 
 nav a {
@@ -61,7 +62,7 @@ nav a {
     color: black;
     font-size: 1.5em;
     margin: 8px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 nav a:hover {
